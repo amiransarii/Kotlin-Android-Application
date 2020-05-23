@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_layout">
+
+    <TextView
+        android:id="@+id/txt_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="top"
+        android:textSize="@dimen/txt_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+       
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_margin">
+        
+        <Button
+            android:id="@+id/btn_courses"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_hight"
+            android:text="@string/course"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/french_blue"></Button>
+
+        <Button
+            android:id="@+id/btn_contacts"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_hight"
+            android:textColor="@color/french_blue"
+            android:layout_alignParentRight="true"
+            android:text="@string/contacts"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_margin">
+
+        <Button
+            android:id="@+id/btn_openWeb"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_hight"
+            android:text="@string/open_web"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/french_blue"></Button>
+
+        <Button
+            android:id="@+id/btn_fetchJson"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_hight"
+            android:textColor="@color/french_blue"
+            android:layout_alignParentRight="true"
+            android:text="@string/fetch_json"></Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

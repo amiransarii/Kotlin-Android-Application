@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_layout">
+
+    <TextView
+        android:id="@+id/txt_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_course"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="top"
+        android:textSize="@dimen/txt_title"
+        android:paddingTop="@dimen/padd_5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_new_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_course"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="top"
+        android:textSize="@dimen/txt_title"
+        android:paddingTop="@dimen/txt_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lv_courses"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

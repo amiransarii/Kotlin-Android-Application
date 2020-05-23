@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Transparent color -->
+    <color name="transparent">#00FFFFFF</color>
+    <!-- Red -->
+    <color name="red">#ff0000</color>
+    <!-- lime -->
+    <color name="lime">#00ff00</color>
+    <!-- ▼▼▼ gray system ▼▼▼ -->
+    <!-- Gray -->
+    <color name="gray">#808080</color>
+    <!-- Dark gray -->
+    <color name="dark_gray">#0d0c0c</color>
+    <color name="silver_gray_1">#9E9E9E</color>
+    <!-- ▲▲▲ gray system ▲▲▲ -->
+    <!-- SafeColor -->
+    <color name="safe_color">#999999</color>
+    <!-- Silver -->
+    <color name="silver">#c0c0c0</color>
+    <!-- black -->
+    <color name="black">#000000</color>
+    <!-- White -->
+    <color name="white">#ffffff</color>
+    <!-- cyan -->
+    <color name="cyan">#00cccc</color>
+    <!-- Aqua -->
+    <color name="aqua">#00ffff</color>
+    <!-- Purple -->
+    <color name="purple">#bf65ff</color>
+    <!-- yellow -->
+    <color name="yellow">#ffff00</color>
+    <!-- Blue -->
+    <color name="blue">#00cccc</color>
+    <color name="blue_2">#0171e0</color>
+    <color name="blue_3">#4993df</color>
+    <color name="ios7_blue">#007AFF</color>
+    <color name="pure_blue">#0000FF</color>
+    <color name="french_blue">#1976D2</color>
+    <!-- Solid green -->
+    <color name="pure_green">@color/lime</color>
+    <!-- Green -->
+    <color name="green">#00695B</color>
+    <!-- Dark green -->
+    <color name="deep_green">#004444</color>
+    <!-- Pink (Trade type: Buy in) -->
+    <color name="pink">#ff6699</color>
+    <!-- Pink (EX Trade history: Buy order) -->
+    <color name="pink_2">#d41c5a</color>
+    <!-- Light blue (Trade type: Square off - Sell -->
+    <color name="light_blue">#6699ff</color>
+    <!-- Translucent gray -->
+    <color name="gray_transparent">#A0808080</color>
+    <color name="background_main">#202020</color>
+    <color name="background_sub">#A0000000</color>
+    <color name="background_list_click">#007BC9</color>
+    <!-- Ranking batch registration Unable to register for the column (transparent gray) -->
+    <color name="background_disabled">#A0888888</color>
+    <!-- Favorite invalid company -->
+    <color name="desc_disable_color">#A0000000</color>
+    <!-- Outer frame and light and dark green of green tag of list system screen -->
+    <color name="frame_green_stroke">#337777</color>
+    <!-- Widget and transparent background (black) -->
+    <color name="widget_bg">#D0000000</color>
+    <!-- Widget and transparent background (white: Beginning gradation) -->
+    <color name="white_bg_start">#40ffffff</color>
+    <!-- Widget fine transparent background (white: Gradation ends) -->
+    <color name="white_bg_end">#30808080</color>
+    <!-- For Widget and bid (blue)* / -->
+    <color name="widget_bid_color">#0088f4</color>
+    <!-- Widget and chart background (beginning gradient) -->
+    <color name="widget_chart_bg_start">#D0001933</color>
+    <!-- Widget and chart background (middle gradation) -->
+    <color name="widget_chart_bg_center">#A0002140</color>
+    <!-- Widget and chart background (end gradient) -->
+    <color name="widget_chart_bg_end">#A03d5a99</color>
+    <!--Order inquiry filtering screen shaded -->
+    <color name="narrowiong_disabled">#C0D8D8D8</color>
+    <!-- Color Change screen -->
+    <color name="color_setting_bg">#181818</color>
+    <!-- Color Change (Pattern 1) -->
+    <color name="color_setting_pattern1_up">#ff99cc</color>
+    <color name="color_setting_pattern1_down">#99ccff</color>
+    <!-- Color Change (Pattern 2) -->
+    <color name="color_setting_pattern2_up">#ff00ff</color>
+    <color name="color_setting_pattern2_down">#00ccff</color>
+
+    <!-- <<FD_C_PSJ>> -->
+
+    <!-- <<FD_C_PSJ 13-12-2016 add start>> -->
+    <color name="background_sub_gray">#141414</color>
+    <color name="dark_gray_2">#383838</color>
+    <!-- Menu: Base Background -->
+    <color name="menu_base_bg">#3A3A3A</color>
+    <!-- <<FD_C_PSJ 13-12-2016 add end>> -->
+
+    <!--<<FD_C_PSJ 16-12-2016 change start>>-->
+    <!-- Color Change (Pattern 3) -->
+    <color name="color_setting_pattern3_up">#00ff00</color>
+    <color name="color_setting_pattern3_down">#ff0000</color>
+    <!--<<FD_C_PSJ 16-12-2016 change end>>-->
+
+    <!--<<FD_C_PSJ 16-12-2016 add start>>-->
+    <color name="segmented_tap_color">#4034aadc</color>
+    <!--<<FD_C_PSJ 16-12-2016 add end>>-->
+
+    <!-- <<FD_C_PSJ>> -->
+
+    <!-- Color Change (Pattern 4) -->
+    <color name="color_setting_pattern4_up">#ff6600</color>
+    <color name="color_setting_pattern4_down">#339966</color>
+    <!-- Orange -->
+    <color name="orange">#f15a22</color>
+    <color name = "light_orange">#FFC400</color>
+    <!-- IOS style -->
+    <color name="ios_style_stripe_1">#efeff4</color>
+    <color name="ios_style_stripe_2">#f6f6f9</color>
+    <color name="ios_style_border_1">#cccccc</color>
+    <color name="ios_style_border_2">#c8c8c8</color>
+    <color name="ios_style_bg_1">#efeff4</color>
+    <color name="ios_style_label">#4d4d4d</color>
+    <!-- Other, no color for trivial name -->
+    <color name="color_1b1b1b">#1b1b1b</color>
+    <!-- White (transmission 30) -->
+    <color name="white_alpha30">#40ffffff</color>
+    <!-- Gray (transmission 30) -->
+    <color name="gray_alpha30">#40808080</color>
+    <color name="background_sub_gray_2">#1D1D1D</color>
+    <!---<<FS_C_NJS 13-12-16 add start>>-->
+    <!--Gray(Updated date & time-->
+    <color name="gray_others">#565656</color>
+    <!--Gray(Account details)-->
+    <color name="gray_summary">#252629</color>
+    <!-- <<FS_C_NJS add end>>-->
+    <!--old chart_bg_color #002874-->
+    <color name="chart_bg_color">#001C4A</color>
+    <!--FS_C_SBB 27-01-2017 add start-->
+    <color name="chart_bar_color">#feb938</color>
+    <!--FS_C_SBB 27-01-2017 add end-->
+
+    <!---<<FS_C_SCC 23-01-17 add start>>-->
+    <color name="chart_vertical_grid_line_color">#485671</color>
+    <color name="chart_horizontal_grid_line_color">#465677</color>
+    <color name="chart_grid_background_color">#001029</color>
+    <color name="chart_price_label_color">#FECE00</color>
+    <!---<<FS_C_SCC 23-01-17 add end>>-->
+
+
+    <color name="p_refine_btn_bg_color">#565A5C</color>
+    <color name="p_btn_selected_color">#36A2F5</color>
+    <color name="p_btn_deselected_color">#000000</color>
+</resources>
